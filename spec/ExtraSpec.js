@@ -1,9 +1,9 @@
-describe("Player failure", function() {
+describe("Player", function() {
     it("fails", function() {
         expect(0).toBe(1);
     });
-});
 
-describe("Something to skip", function() {
-    it("is ignored", function() {});
+    it("feels like passing", function() {
+        expect(0).toBe(0);
+    });
 });
